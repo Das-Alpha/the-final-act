@@ -30,23 +30,26 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="The Final Act" />
+<meta property="og:title" content="Das ewige Problem mit Spamhaus und gewissen Domains!" />
 <meta property="og:locale" content="de_DE" />
-<meta name="description" content="Über ein Jahr gejadgt und auf der Strasse gelebt, das Ende von Nick ist nah!" />
-<meta property="og:description" content="Über ein Jahr gejadgt und auf der Strasse gelebt, das Ende von Nick ist nah!" />
-<link rel="canonical" href="https://www.das-alpha.com/" />
-<meta property="og:url" content="https://www.das-alpha.com/" />
+<meta name="description" content="Spamhaus ist ein Fluch und ein Segen zugleich, jedoch eher Fluch…" />
+<meta property="og:description" content="Spamhaus ist ein Fluch und ein Segen zugleich, jedoch eher Fluch…" />
+<link rel="canonical" href="https://www.das-alpha.com/posts/Das-ewige-Problem-mit-Spamhaus-und-Domains.md/" />
+<meta property="og:url" content="https://www.das-alpha.com/posts/Das-ewige-Problem-mit-Spamhaus-und-Domains.md/" />
 <meta property="og:site_name" content="The Final Act" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="The Final Act" />
+<meta property="og:image" content="https://www.das-alpha.com/assets/media/splash/putzen-putzen-die-politische-reinigungsaktion-2026.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-06-11T12:00:00+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://www.das-alpha.com/assets/media/splash/putzen-putzen-die-politische-reinigungsaktion-2026.jpg" />
+<meta property="twitter:title" content="Das ewige Problem mit Spamhaus und gewissen Domains!" />
 <meta name="twitter:site" content="@NVRConsent" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Über ein Jahr gejadgt und auf der Strasse gelebt, das Ende von Nick ist nah!","headline":"The Final Act","name":"Das Alpha","sameAs":["https://twitter.com/nvrconsent","https://github.com/das-alpha"],"url":"https://www.das-alpha.com/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-06-11T11:43:13+02:00","datePublished":"2026-06-11T12:00:00+02:00","description":"Spamhaus ist ein Fluch und ein Segen zugleich, jedoch eher Fluch…","headline":"Das ewige Problem mit Spamhaus und gewissen Domains!","image":"https://www.das-alpha.com/assets/media/splash/putzen-putzen-die-politische-reinigungsaktion-2026.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.das-alpha.com/posts/Das-ewige-Problem-mit-Spamhaus-und-Domains.md/"},"url":"https://www.das-alpha.com/posts/Das-ewige-Problem-mit-Spamhaus-und-Domains.md/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>The Final Act
+  <title>Das ewige Problem mit Spamhaus und gewissen Domains! | The Final Act
   </title>
 
   <!--
@@ -105,11 +108,16 @@
   <!-- 3rd-party Dependencies -->
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.36.4/dist/tocbot.min.css">
+  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -128,6 +136,9 @@
   
 
   
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
 
 
 
@@ -185,9 +196,30 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/de.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/de.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js,npm/tocbot@4.36.4/dist/tocbot.min.js"></script>
 
 
 
@@ -195,11 +227,15 @@
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -225,7 +261,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>STARTSEITE</span>
@@ -379,9 +415,23 @@
       
 
       
-        <!-- index page -->
-        <span>Startseite</span>
+        
+          
+            <span>
+              <a href="/">Startseite</a>
+            </span>
 
+          
+        
+          
+        
+          
+            
+              <span>Das ewige Problem mit Spamhaus und gewissen Domains!</span>
+            
+
+          
+        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -391,7 +441,7 @@
     </button>
 
     <div id="topbar-title">
-      The Final Act
+      Eintrag
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -483,50 +533,13 @@
 
       
     
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
       
 
       
       
+      
 
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
+      
     
       
 
@@ -563,195 +576,16 @@
     
 
     
-      <!-- create the image wrapper -->
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
       
 
       
+        <!-- create the image wrapper -->
+        
+
+        
+        
       
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- create the image wrapper -->
-      
-
-      
-      
-
     
 
     <!-- combine -->
@@ -774,6 +608,71 @@
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
   
@@ -804,128 +703,19 @@
 
 
 
-<!-- Get pinned posts on current page -->
 
+<article class="px-1" data-toc="true">
+  <header>
+    <h1 data-toc-skip>Das ewige Problem mit Spamhaus und gewissen Domains!</h1>
+    
+      <p class="post-desc fw-light mb-4">Spamhaus ist ein Fluch und ein Segen zugleich, jedoch eher Fluch...</p>
+    
 
-
-
-
-
-<!-- Get normal posts on current page -->
-
-
-
-
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  
-    <article class="card-wrapper card">
-      <a href="/posts/The-Final-Act/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/media/splash/die-ausgrenzung-und-die-vernichtung-der-anders-denkenden.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Der Hintergrund (The Final Act)</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>In Deutschland wird alles was nicht ultralinks ist gemobbt... Personen werden so systematisch in den Tod getrieben.</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1761991200"
-  data-df="DD.MM.YYYY"
-  
->
-  01.11.2025
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Allgemein
-                  </span>
-                
-              </div>
-
-              
-                <div class="pin ms-1">
-                  <i class="fas fa-thumbtack fa-fw"></i>
-                  <span></span>
-                </div>
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/Das-ewige-Problem-mit-Spamhaus-und-Domains.md/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/media/splash/putzen-putzen-die-politische-reinigungsaktion-2026.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Das ewige Problem mit Spamhaus und gewissen Domains!</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Spamhaus ist ein Fluch und ein Segen zugleich, jedoch eher Fluch...</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Veröffentlicht
+        <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -938,64 +728,19 @@
   data-ts="1781172000"
   data-df="DD.MM.YYYY"
   
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
 >
   11.06.2026
 </time>
 
+      </span>
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Spam,
-                      Internet
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/Der-bio-deutsche-Dreck-muss-endlich-weg/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/media/splash/putzen-putzen-die-politische-reinigungsaktion-2026.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Der bio-deutsche Dreck muss endlich weg!</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Putzen putzen! Die politische Frühjahrs-Reinigungsaktion 2026! Der unliebsame rechte Dreck muss weg!</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
+      <!-- lastmod date -->
+      
+        <span>
+          Aktualisiert
+          <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -1005,177 +750,223 @@
 
 <time
   
-  data-ts="1768816800"
+  data-ts="1781170993"
   data-df="DD.MM.YYYY"
   
->
-  19.01.2026
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Great Reset,
-                      Deutschland
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/Systemschaedling-vs-Volksschaedling/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/media/splash/systemschaedling.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Systemschädling vs. Volksschädling</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Der Unterschied ist schnell erklärt - Ein Volksschädling zerstört nur ihr Volk, ein Systemschädling jedes System!</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1764496800"
-  data-df="DD.MM.YYYY"
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  30.11.2025
+  11.06.2026
 </time>
 
+        </span>
+      
 
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Systemschädling
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
-    <article class="card-wrapper card">
-      <a href="/posts/Die-Kinder-und-die-Blockchain/" class="post-preview row g-0 flex-md-row-reverse">
+      
+        
+        
         
 
         
+
+        <div class="mt-3 mb-3">
+          <a href="/assets/media/splash/putzen-putzen-die-politische-reinigungsaktion-2026.jpg" class="popup img-link preview-img shimmer"><img src="/assets/media/splash/putzen-putzen-die-politische-reinigungsaktion-2026.jpg"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
           
 
+          Von
+
+          <em>
+            
+              <a href="https://twitter.com/nvrconsent">Das Alpha</a>
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
           
 
-          
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
 
-          
 
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/media/splash/die-kinder-und-die-blockchain.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
 
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Die Kinder und die Blockchain</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>Stellen Sie sich vor, Sie haben Kinder und sie sind nicht von Ihnen. Was tun? Die Lösung ist natürlich die Blockchain!</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
+<!-- words per minute -->
 
 
 
 
-<time
-  
-  data-ts="1741600800"
-  data-df="DD.MM.YYYY"
-  
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="502 Wörter"
 >
-  10.03.2025
-</time>
+  <em>2 Minuten</em> Lesezeit</span>
 
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Weltbewegendes,
-                      Baden-Württemberg
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
         </div>
-      </a>
-    </article>
+      </div>
+    </div>
+  </header>
+
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">Das ewige Problem mit Spamhaus und gewissen Domains!</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Inhalt</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">Das ewige Problem mit Spamhaus und gewissen Domains!</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
+
+  <div class="content">
+    <h2 id="vorwort"><span class="me-2">Vorwort</span><a href="#vorwort" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Einigen Personen ist vielleicht schon aufgefallen, dass wir von .site zu .xyz umziehen mussten. Es wird sich noch klären, ob der Umzug temporär oder dauerhaft sein wird, aber die Gründe für diesen Umzug sind leider sehr ärgerlich. Es liegt mal wieder an Spamhaus, einem Dienst, der Domains auf eine schwarze Liste setzt, wenn sie als Spam-Quelle identifiziert werden. Nur liefert dieser Dienst (durch Manipulation oder problematischen Heuristiken) leider immer wieder <em>False Positives</em>.</p>
+
+<h2 id="das-problem-mit-spamhaus"><span class="me-2">Das Problem mit Spamhaus</span><a href="#das-problem-mit-spamhaus" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Wie schon gesagt, wurde die Domain ursprünglich auf .site gehostet, doch aufgrund von Spamhaus-Problemen musste sie auf .xyz umgezogen werden. Leider setzt Spamhaus gerne .site Domains auf die Liste, was zu erheblichen Problemen führt. Es ist frustrierend, dass trotz aller Bemühungen, die Domain sauber zu halten, immer wieder Probleme mit Spamhaus auftreten. Besonders ärgerlich in diesem Fall war, dass die Domain von Anfang an sauber war, da sie nur für die Veröffentlichung von Inhalten genutzt wurde, die auf einem Github-Repository gehostet werden. Es gab keine Möglichkeit für Spam oder Missbrauch, da das Repository öffentlich einsehbar ist und keine sensiblen Informationen enthält.</p>
+
+<p>Man muss bei jedem Blacklisting zudem mit einem Ausfall von mehreren Tagen rechnen, da die Entfernung von der Liste nicht sofort erfolgt und es oft mehrere Anläufe braucht, um die Domain wieder freizuschalten. Man könnte fast schon darüber lachen, wenn es nicht so ärgerlich wäre, ein paar Tage nach der Freigabe wurde die Domain wieder (mit den selben false Positives) geblacklistet.</p>
+
+<p>Was soll man da noch sagen…</p>
+
+<h2 id="der-github-hintergrund"><span class="me-2">Der Github-Hintergrund</span><a href="#der-github-hintergrund" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Hinzu kommt, dass der Content ist auf einem Github-Repository gehostet ist und wird über einen Worker in eine “Web-Site” quasi übersetzt. Damit ist vollkommen klar, dass das Repository sauber ist, da es öffentlich einsehbar ist. Dennoch wird die Domain immer wieder von Spamhaus blockiert, was zu erheblichen Einschränkungen führt. Es ist ein ewiges Problem, das nicht nur ärgerlich, sondern auch zeitaufwendig, ständig mit Spamhaus zu kämpfen. Es ist sinnlos verlorene Zeit, mehr nicht.</p>
+
+<h2 id="die-konsequenzen"><span class="me-2">Die Konsequenzen</span><a href="#die-konsequenzen" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Sofern man nicht auf high-quality Domains ausweicht, ist man inzwischen gezwungen diese Art von “billigen” Domains mit absoluter Härte gegen Spammer abzuschotten. Diese extreme Abschottung führt dann aber zu Einschränkungen bei der Usability. Es ist ein Teufelskreis, der schwer zu durchbrechen ist. Es bleibt zu hoffen, dass Spamhaus in Zukunft eine differenziertere Herangehensweise an die Bewertung von Domains entwickelt, um legitime Nutzer nicht unnötig zu bestrafen.</p>
+
+<p>Man muss mit maximaler Härte die DMARC-Einträge setzen. Aus naheliegenden Gründen werde ich meine an dieser Stelle nicht veröffentlichen, da man dafür u.a. das RUA und RUF-Reporting seine Emails  (es ist auch möglich und empfehlenswert mit obfuscated Emails zu arbeiten) angeben muss. Es ist aber dringend zu empfehlen, dass jeder, der eine Domain betreibt, sich mit DMARC auseinandersetzt und entsprechende Einträge setzt, um die Sicherheit und Reputation der Domain zu schützen.</p>
+
+<h2 id="fazit"><span class="me-2">Fazit</span><a href="#fazit" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Diese billigen Domains, sind meist nur im erste Jahr wirklich billig, aber preiswert sind sie in vielen Fällen nicht wirklich, weil der Aufwand sehr hoch ist und die Registrare bei der kleinsten Kleinigkeit sofort die Domain sperren, was zu erheblichen Problemen führt.</p>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/spam/">Spam</a>,
+          <a href="/categories/internet/">Internet</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/internet/"
+            class="post-tag no-text-decoration"
+          >Internet</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          Dieser Eintrag ist vom Autor unter 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         lizensiert.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Teilen</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=Das%20ewige%20Problem%20mit%20Spamhaus%20und%20gewissen%20Domains!%20-%20The%20Final%20Act&url=https%3A%2F%2Fwww.das-alpha.com%2Fposts%2FDas-ewige-Problem-mit-Spamhaus-und-Domains.md%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Das%20ewige%20Problem%20mit%20Spamhaus%20und%20gewissen%20Domains!%20-%20The%20Final%20Act&u=https%3A%2F%2Fwww.das-alpha.com%2Fposts%2FDas-ewige-Problem-mit-Spamhaus-und-Domains.md%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fwww.das-alpha.com%2Fposts%2FDas-ewige-Problem-mit-Spamhaus-und-Domains.md%2F&text=Das%20ewige%20Problem%20mit%20Spamhaus%20und%20gewissen%20Domains!%20-%20The%20Final%20Act" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Link kopieren"
+      data-title-succeed="Link erfolgreich kopiert!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
 </div>
-<!-- #post-list -->
 
-
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
 
 
             
@@ -1402,12 +1193,94 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Inhalt</h2>
+    <nav id="toc"></nav>
+  </section>
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/Der-bio-deutsche-Dreck-muss-endlich-weg/"
+      class="btn btn-outline-primary"
+      aria-label="Eintrag vorher"
+    >
+      <p>Der bio-deutsche Dreck muss endlich weg!</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Nächster Eintrag">
+      <p>-</p>
+    </div>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -1655,6 +1528,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 

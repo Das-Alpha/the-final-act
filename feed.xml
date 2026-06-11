@@ -4,7 +4,7 @@
   <id>https://www.das-alpha.com/</id>
   <title>The Final Act</title>
   <subtitle>Über ein Jahr gejadgt und auf der Strasse gelebt, das Ende von Nick ist nah!</subtitle>
-  <updated>2026-01-25T20:15:31+01:00</updated>
+  <updated>2026-06-11T12:10:05+02:00</updated>
   <author>
     <name>Das Alpha</name>
     <uri>https://www.das-alpha.com/</uri>
@@ -20,11 +20,37 @@
 
   
   <entry>
+    <title>Das ewige Problem mit Spamhaus und gewissen Domains!</title>
+    <link href="https://www.das-alpha.com/posts/Das-ewige-Problem-mit-Spamhaus-und-Domains.md/" rel="alternate" type="text/html" title="Das ewige Problem mit Spamhaus und gewissen Domains!" />
+    <published>2026-06-11T12:00:00+02:00</published>
+  
+    <updated>2026-06-11T11:43:13+02:00</updated>
+  
+    <id>https://www.das-alpha.com/posts/Das-ewige-Problem-mit-Spamhaus-und-Domains.md/</id>
+    <content type="text/html" src="https://www.das-alpha.com/posts/Das-ewige-Problem-mit-Spamhaus-und-Domains.md/" />
+    <author>
+      <name>Das Alpha</name>
+    </author>
+
+  
+    
+    <category term="Spam" />
+    
+    <category term="Internet" />
+    
+  
+
+  <summary>Spamhaus ist ein Fluch und ein Segen zugleich, jedoch eher Fluch...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Der bio-deutsche Dreck muss endlich weg!</title>
     <link href="https://www.das-alpha.com/posts/Der-bio-deutsche-Dreck-muss-endlich-weg/" rel="alternate" type="text/html" title="Der bio-deutsche Dreck muss endlich weg!" />
-    <published>2026-01-19T11:00:00+01:00</published>
+    <published>2026-01-19T12:00:00+02:00</published>
   
-    <updated>2026-01-25T20:15:23+01:00</updated>
+    <updated>2026-01-25T21:15:23+02:00</updated>
   
     <id>https://www.das-alpha.com/posts/Der-bio-deutsche-Dreck-muss-endlich-weg/</id>
     <content type="text/html" src="https://www.das-alpha.com/posts/Der-bio-deutsche-Dreck-muss-endlich-weg/" />
@@ -48,9 +74,9 @@
   <entry>
     <title>Systemschädling vs. Volksschädling</title>
     <link href="https://www.das-alpha.com/posts/Systemschaedling-vs-Volksschaedling/" rel="alternate" type="text/html" title="Systemschädling vs. Volksschädling" />
-    <published>2025-11-30T11:00:00+01:00</published>
+    <published>2025-11-30T12:00:00+02:00</published>
   
-    <updated>2025-11-30T11:00:00+01:00</updated>
+    <updated>2025-11-30T12:00:00+02:00</updated>
   
     <id>https://www.das-alpha.com/posts/Systemschaedling-vs-Volksschaedling/</id>
     <content type="text/html" src="https://www.das-alpha.com/posts/Systemschaedling-vs-Volksschaedling/" />
@@ -72,9 +98,9 @@
   <entry>
     <title>Der Hintergrund (The Final Act)</title>
     <link href="https://www.das-alpha.com/posts/The-Final-Act/" rel="alternate" type="text/html" title="Der Hintergrund (The Final Act)" />
-    <published>2025-11-01T11:00:00+01:00</published>
+    <published>2025-11-01T12:00:00+02:00</published>
   
-    <updated>2026-01-25T20:03:26+01:00</updated>
+    <updated>2026-01-25T21:03:26+02:00</updated>
   
     <id>https://www.das-alpha.com/posts/The-Final-Act/</id>
     <content type="text/html" src="https://www.das-alpha.com/posts/The-Final-Act/" />
@@ -96,9 +122,9 @@
   <entry>
     <title>Die Kinder und die Blockchain</title>
     <link href="https://www.das-alpha.com/posts/Die-Kinder-und-die-Blockchain/" rel="alternate" type="text/html" title="Die Kinder und die Blockchain" />
-    <published>2025-03-10T11:00:00+01:00</published>
+    <published>2025-03-10T12:00:00+02:00</published>
   
-    <updated>2025-03-10T11:00:00+01:00</updated>
+    <updated>2026-06-11T11:43:13+02:00</updated>
   
     <id>https://www.das-alpha.com/posts/Die-Kinder-und-die-Blockchain/</id>
     <content type="text/html" src="https://www.das-alpha.com/posts/Die-Kinder-und-die-Blockchain/" />
